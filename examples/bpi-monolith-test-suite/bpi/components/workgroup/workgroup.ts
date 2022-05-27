@@ -7,7 +7,7 @@ export class Workgroup {
      participants: BpiSubject[] = [];
      worksteps: Workstep[] = [];
 
-    constructor(name: string, id: string, owner: BpiSubject, worksteps: Workstep[],) {
+    constructor(name: string, id: string, owner: BpiSubject, worksteps: Workstep[]) {
         this.name = name;
         this.id = id;
         this.worksteps = worksteps;
